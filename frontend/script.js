@@ -1,4 +1,4 @@
-const API = "https://YOUR-RAILWAY-URL"; // replace later
+const API = "https://stock-tracker-production-7037.up.railway.app/"; // replace later
 
 async function loadMovers() {
   const res = await fetch(`${API}/stocks/movers`);
